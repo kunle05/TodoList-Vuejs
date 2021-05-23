@@ -15,7 +15,16 @@
 <script>
 export default {
   data: () => ({
-    todoList: [],
+    todoList: [
+      {
+        todo: 'First todo item',
+        completed: true,
+      },
+      {
+        todo: 'Create More Item',
+        completed: false,
+      },
+    ],
   }),
   methods: {
     addToList(item) {

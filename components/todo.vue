@@ -3,6 +3,7 @@
     <div class="d-flex justify-content-between center">
       <div>
         <input
+          v-model="item.completed"
           class="mr-2 check"
           type="checkbox"
           @click="() => completed(item)"
