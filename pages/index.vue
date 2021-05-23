@@ -1,7 +1,7 @@
 <template>
   <div class="container pb-5">
     <h2 class="display-4 my-5">My Todo List</h2>
-    <div class="row">
+    <div class="row border-top py-5">
       <addTodo :add-item="addToList" />
       <todos
         :todo-list="todoList"

@@ -59,7 +59,7 @@ export default {
   width: 18px;
   vertical-align: middle;
 }
-.border-top:last-child {
+.border-top.px-5:last-child {
   border-bottom: 1px solid #dee2e6;
 }
 </style>
